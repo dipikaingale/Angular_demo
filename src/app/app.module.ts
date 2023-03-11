@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SingInPageComponent } from './sing-in-page/sing-in-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SingInPageComponent
   ],
   imports: [
     BrowserModule,
